@@ -43,6 +43,10 @@
                             <a href="#catalogo" class="nav-link" aria-current="page">Catalogo</a>
 
                         </li>
+                        <li class="nav-item">
+                            <a href="views/login.php" class="nav-link" aria-current="page">Cliente</a>
+
+                        </li>
                     </ul>
                 </div>
             </div>

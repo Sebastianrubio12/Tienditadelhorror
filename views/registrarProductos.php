@@ -61,7 +61,7 @@
 
                 <h3>REGISTRAR PRODUCTO</h3>
 
-                <form class="mt-5" method="POST" action="../servidor/recibirdatos.php">
+                <form class="mt-5" method="POST" action="../servidor/recibirDatos.php">
                     <div class="row">
                         <div class="col">
                             <input type="text" class="form-control" placeholder="Nombre Producto" name="nombreProducto">
