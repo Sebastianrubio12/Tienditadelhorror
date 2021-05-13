@@ -23,13 +23,13 @@
                       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     </ol>
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
+                      <div class="carousel-item  img-1 min-vh-100 active">
                         <div class="carousel-caption d-none d-md-block">
                           <h5 class="font-weight-bold">La más potente del mercado</h5>
                           <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
                         </div>
                       </div>
-                      <div class="carousel-item img min-vh-100">
+                      <div class="carousel-item img-2 min-vh-100">
                         <div class="carousel-caption d-none d-md-block">
                           <h5 class="font-weight-bold">Descubre la nueva generación</h5>
                           <a class="text-muted text-decoration-none">Visita nuestra tienda</a>

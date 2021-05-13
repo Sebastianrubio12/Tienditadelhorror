@@ -73,13 +73,13 @@ body {
 }
 
 .img-1 {
-    background-image: url('img-1.jpg');
+    background-image: url("../img/img4.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .img-2 {
-    background-image: url('img-2.jpg');
+    background-image: url('../img/img7.jpg');
     background-size: cover;
     background-position: center;
 }
