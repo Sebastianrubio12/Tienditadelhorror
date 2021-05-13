@@ -1,0 +1,36 @@
+
+.carousel-img{
+    background-color:rgba(0,0,0 .7) ;
+        
+}
+
+.font{
+    font-family: 'Girassol', cursive;
+}
+#banner{
+
+    background-image: url(../img/img5.jpg);
+    background-size: cover;
+    padding: 20% 2%;
+    position:relative;
+    z-index:1;
+    background-attachment: fixed;
+}
+
+#banner::after{
+    content: '';
+    position:absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    opacity:0.55;
+    z-index:-1; 
+}
+
+#banner h1{
+    color:white;
+    position:relative;
+    font-size:4rem;
+}
