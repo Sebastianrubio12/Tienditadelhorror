@@ -61,7 +61,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="../views/login.php"><i
+                                <li><a class="dropdown-item" href="../views/login.php" target="_blank"><i
                                             class="bi bi-person"></i>Inicar Sesion</a></li>
                             </ul>
                         </li>
