@@ -19,7 +19,9 @@
         $operacionBD= new Basedatos();
 
         //3.Definir la consulta SQL a ejecutar
-        $consultaSQL="INSERT INTO producto (nombre,precio,marca,url_foto,descripcion) VALUES ('$nombreProducto','$precioProducto','$marcaProducto','$fotoProducto','$descripcionProducto')";
+        $modeloProductos=new Productos();
+        $consultaSQL=$modeloProductos->registrarProducto($nombreProducto,$precioProducto,$marcaProducto,$fotoProducto,$descripcionProducto);
+        
         
         //4. Llamar al metodo de la clase BaseDatos para AGREGAR rgeistros
         $operacionBD->agregarRegistros($consultaSQL, "insert");

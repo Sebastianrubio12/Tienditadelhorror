@@ -73,7 +73,7 @@ body {
 }
 
 .img-1 {
-    background-image: url("../img/img4.jpg");
+    background-image: url("../img/img8.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -82,4 +82,10 @@ body {
     background-image: url('../img/img7.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.bg{
+    background-image: url(../img/img9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }

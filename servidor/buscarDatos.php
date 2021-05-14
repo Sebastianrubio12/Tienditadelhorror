@@ -8,14 +8,17 @@
   $operacionBD = new Basedatos();
 
   //2. consulta SQL para seleccionar
-  $consultaSQL = "SELECT * FROM producto";
+  $modeloProductos= new Productos(); 
+  $consultaSQL=$modeloProductos->buscarProductos();
+  $consultaSQL="SELECT * FROM producto";
+  
 
   //3. accedemos al metodo buscarRegistros y almacenamos la consulta dentro de un arrgelo
   $productos = $operacionBD->buscarRegistros($consultaSQL);
 
   //4. imprimir el arreglo
-  print_r($productos);
-  //$producto[0];
+  // print_r($productos);
+  // //$producto[0];
 
 
 ?>

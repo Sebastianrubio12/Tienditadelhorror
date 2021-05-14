@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/ffec4ec2ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../public/css/estilos.css" />
 
-    <title>Login Figma | Templune</title>
+    <title>login</title>
   </head>
   <body class="bg-dark">
       <section>
@@ -48,10 +48,13 @@
             </div>
             <div class="col-lg-5 bg-dark d-flex flex-column align-items-end min-vh-100">
                 <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 mb-auto w-100">
-                    <img src="../public/img/logo1.png" class="img-fluid" />
+                <a href="../index.php" class="navbar-brand">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <span class="align-middle">LICORERIA LOS JIMENEZ</span>
+                </a>
                 </div>
                 <div class="align-self-center w-100 px-lg-5 py-lg-4 p-4">
-                <h1 class="font-weight-bold mb-4">Registrate Gratis</h1>
+                <h1 class="font-weight-bold mb-4">Bienvenido de vuelta</h1>
                 <form class="mb-5">
                     <div class="mb-4">
                       <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>

@@ -6,7 +6,7 @@ include("../models/productos.php");
 if(isset($_POST["botonEditar"])){
 
     //1. capturar el id a editar
-    $id=$_GET["id"];
+    $Id=$_GET["Id"];
     
     //2. Recibo los datos a editar
     $nombreProducto=$_POST["nombreEditar"];
@@ -18,8 +18,8 @@ if(isset($_POST["botonEditar"])){
     $operacionBD= new Basedatos();
 
     //4. Crear la consulta SQL para EDITAR REGISTROS
-    $consultaSQL="UPDATE producto SET nombre='$nombreProducto',precio='$precioProducto',url_foto='$fotoProducto' WHERE id='$id'";
-
+    $modeloProductos=new Productos();
+    $consultaSQL=$modeloProductos->editarProducto($Id,$nombreProducto,$precioProducto,$fotoProducto);
     //5. LLamar el metodo editarregistros
     $operacionBD->agregarRegistros($consultaSQL,"update");
    

@@ -23,7 +23,7 @@
                 $conexion= new PDO($datosGeneralesBD,$this->usuarioBD,$this->passwordBD);
                 return($conexion);
             }catch(PDOException $mensajeError){
-                header("Location:../error.php");
+                header("Location:../views/error.php");
             }   
         }
 
@@ -42,7 +42,7 @@
                 $this->clasificarConsulta($tipoConsulta);
 
             }catch(PDOException $mensajeError){
-                header("Location:../views/error.php");
+                header("Location:../error.php");
             }
 
         }
