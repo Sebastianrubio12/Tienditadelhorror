@@ -159,7 +159,7 @@
 
                     <p>Licoreria los Jimenez</p>
                     <p>Medellín-Colombia</p>
-                    <p>2024</p>
+                    
 
                 </div>
                 <div class="col-6 p-5 text-white">
