@@ -12,7 +12,7 @@
 </head>
 
 <body class="bg-dark">
-
+    <!-- Conexion BD -->
     <?php
 
     if (!isset($_SESSION)) {
@@ -21,11 +21,14 @@
     include("../servidor/buscarDatos.php");
 
     ?>
+    <!-- Conexion BD -->
 
-    <!-- <?php if (isset($_SESSION["mensaje"])) : ?>
+
+   
+  <?php if(isset($_SESSION["mensaje"])):?>
 
         <section>
-            <div class="modal fade" id="#ventanaMensaje" tabindex="-1">
+            <div class="modal fade" id="ventanaMensaje" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -35,7 +38,7 @@
                         </div>
 
                         <div class="modal-body">
-                            <p><?= $_SESSION["mensaje"] ?></p>
+                            <p><?=$_SESSION["mensaje"]?></p>
                         </div>
 
                     </div>
@@ -47,12 +50,12 @@
 
         <?php unset($_SESSION["mensaje"]) ?>
 
-    <?php endif ?> -->
-
+    <?php endif ?> 
 
     <!-- <?php if(isset($_SESSION["mensaje"])):?>
             <h2 class="text-white"><?= $_SESSION["mensaje"] ?></h2>
     <?php endif ?> -->
+
 
 
     <header>
@@ -123,9 +126,9 @@
                             <h5 class="card-title"><?= $producto["nombre"] ?></h5>
                             <p class="card-text">$<?= $producto["precio"] ?></p>
                             <a href="" class="btn btn-danger" data-bs-toggle="modal"
-                                data-bs-target="#mensaje<?= $producto["Id"] ?>"> eliminar</a>
+                                data-bs-target="#mensaje<?= $producto["Id"] ?>"><i class="fas fa-trash-alt"></i></a>
                             <a href="" class="btn btn-outline-warning" data-bs-toggle="modal"
-                                data-bs-target="#editar<?= $producto["Id"] ?>">Editar</a>
+                                data-bs-target="#editar<?= $producto["Id"] ?>"><i class="fas fa-edit"></i></a>
                         </div>
                     </div>
 

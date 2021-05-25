@@ -15,7 +15,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-8">
                 <h1 class="text-center">INTERNAL SERVER ERROR</h1>
-                <i class="fas fa-robot"></i>
+                <i class="fas fa-robot h1"></i>
                 <p class="text-center">Tenemos un problema en nuestro servidor, estamos trabajando ello</p>
             </div>
         </div>

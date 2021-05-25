@@ -82,8 +82,6 @@
 
         </section>
         <!-- Banner -->
-
-
     </header>
 
     <!-- principal -->
@@ -168,9 +166,6 @@
 
         </div>
         <!-- Servicios -->
-
-
-
 
     </main>
     <!-- principal -->
@@ -418,9 +413,9 @@
                 </div>
                 <div class="col-6 p-5 text-white">
                     <div class="col-12 text-white">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook-f h2 text-white"></i></a>
+                        <a href=""><i class="fab fa-twitter h2 text-white"></i></a>
+                        <a href=""><i class="fab fa-instagram h2 text-white"></i></a>
                     </div>
                     <p>&#9751; licorerialosJimenez@gmail.com</p>
                     <p> Contacto: 3113673481</p>

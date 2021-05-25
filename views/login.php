@@ -14,6 +14,7 @@
     <title>login</title>
   </head>
   <body class="bg-dark">
+    <!-- Imagenes -->
       <section>
         <div class="row g-0">
             <div class="col-lg-7 d-none d-lg-block">
@@ -26,12 +27,12 @@
                       <div class="carousel-item  img-1 min-vh-100 active">
                         <div class="carousel-caption d-none d-md-block">
                           <h5 class="font-weight-bold">La más potente del mercado</h5>
-                          <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
+                          <a href="../views/listarProductos.php" class="text-muted text-decoration-none">Visita nuestra tienda</a>
                         </div>
                       </div>
                       <div class="carousel-item img-2 min-vh-100">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 class="font-weight-bold">Descubre la nueva generación</h5>
+                          <h5 class="font-weight-bold">Los mejores licores del pais</h5>
                           <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
                         </div>
                       </div>
@@ -80,6 +81,7 @@
             </div>
         </div>
       </section>
+      <!-- Imagenes -->
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
